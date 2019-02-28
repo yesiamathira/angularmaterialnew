@@ -1,0 +1,113 @@
+html,body{height:100%;
+    padding:0px;
+    }
+        div:nth-of-type(1){height:10%;}
+        div:nth-of-type(2){height:10%;}
+        div:nth-of-type(3){height:70%;}
+        div:nth-of-type(4){height:10%;}
+        .row{
+    border:1px solid gray;
+    box-shadow: 4px 4px 4px #888888;
+    }
+    
+    .row .cola{
+    float:left;
+    width:20%;
+    margin-left:30 px;
+    height: 70px;
+    }
+       
+      
+       .row .text{
+    left:10 px;
+    text-align:center;
+    width:80%;
+    vertical-align:-webkit-baseline-middle;
+       }
+    
+    .row1{background-color:chocolate;}
+    .row1 .text2
+    {
+    text-align:center;
+    color:white;
+    padding: 10px;
+    display:inline-block;
+    }
+    
+     .row3 
+    {background-color:brown;
+    text-align:center;
+    height: 100%;
+    color:skyblue;
+    padding-top:40px;
+    }
+    
+      #one
+      { float:left;
+      width:15%;} 
+    
+      #two{
+      width:70%;} 
+    
+      #three{
+      width:15%;
+      float:right;
+      } 
+    
+     .slides .mySlides
+      {
+         width:100% ; 
+         height: 100%;
+      }
+    
+      /* .btn{
+    float:right;
+    width:10%;
+    align-items: center;
+    position:relative;
+    background: red; */
+    
+      
+      .btn
+      {
+      border: none;
+      outline: none;
+      background: red;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+      float:right;
+      height:40px;
+      width:100px;
+      position:relative;
+      margin-top:-50px;
+      }
+      .btn:hover
+      {
+      cursor:pointer;
+      background:green;
+      color:black;
+      
+      }
+      .btn1
+      {
+      border: none;
+      outline: none;
+      background: red;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+      height:40px;
+      width:100px;
+      position:absolute;
+      margin-top:-50px;
+      margin-left: 1300px;
+      
+      }
+      .btn1:hover
+      {
+      cursor:pointer;
+      background:green;
+      color:black;
+      
+      }

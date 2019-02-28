@@ -1,0 +1,23 @@
+
+     <div class="loginbox">
+     <img src="../../assets/angimg3/avatar.jpg" class="avatar" >
+        <h1>Login Here</h1>
+        <!-- <form action="dashboard">
+         <p>Username</p>
+         <input type="text" name="" placeholder="Enter username">
+         <p>Password</p>
+         <input type="text" name="" placeholder="Enter password">
+         <input type="submit" name="" value="Login">
+        </form> -->
+        <form class="example-form">
+         <mat-form-field class="example-full-width">
+           <input matInput placeholder="Enter user Name" >
+         </mat-form-field>
+       
+         <mat-form-field class="example-full-width">
+           <input matInput placeholder="Password" type="password">
+         </mat-form-field>
+         <button class="warn" mat-button (click)="openSnackBar(message.value, action.value)">Login</button>
+      </form>
+
+     </div>
